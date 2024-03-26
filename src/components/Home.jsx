@@ -18,10 +18,16 @@ function Home({openchat}) {
       <div className="w-full h-screen flex justify-center items-center  ">
         <div className="w-full flex h-5/6 mx-10 flex-col md:flex-row">
           <div className="w-full md:w-1/2 flex items-start text-center md:text-start flex-col justify-center ">
-            <h1 className="font-poppins w-full text-2xl md:text-9xl mb-10 mt-10 md:mt-0">
-              Zulfikar Aji Santoso 
+            <h1 className="font-poppins w-full text-2xl md:text-8xl mb-10 mt-10 md:mt-0 text-left ">
+              Zulfikar 
             </h1>
-            <div className="w-full  mb-10">
+            <h1 className="font-poppins w-full text-2xl md:text-8xl mb-10 mt-10 md:mt-0 text-left ">
+               Aji  
+            </h1>
+            <h1 className="font-poppins w-full text-2xl md:text-8xl mb-10 mt-10 md:mt-0 text-left ">
+              Santoso 
+            </h1>
+            <div className="w-full  mb-10 text-left">
             <Typed
               className="font-poppins text-1xl  md:text-3xl font-thin "
               strings={[
@@ -34,8 +40,8 @@ function Home({openchat}) {
               loop={true}
             />
             </div>
-            <p className="w-full md:w-3/4 ">
-              Saya adalah seorang software developer dengan pengalaman 2 tahun lebih membuat sistem berbasis website dan mobile 
+            <p className="w-full md:w-3/4 text-left ">
+              Saya adalah seorang software engineer dengan pengalaman 2 tahun lebih membuat sistem berbasis website dan mobile 
             </p>
             <div className="flex items-center w-full justify-center md:justify-start">
               <a href="mailto:zulfikarajisan@gmail.com" 
