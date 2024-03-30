@@ -17,17 +17,17 @@ function Home({openchat}) {
     <>
       <div className="w-full h-screen flex justify-center items-center  ">
         <div className="w-full flex h-5/6 mx-10 flex-col md:flex-row">
-          <div className="w-full md:w-1/2 flex items-start text-center md:text-start flex-col justify-center ">
-            <h1 className="font-poppins w-full text-2xl md:text-8xl mb-10 mt-10 md:mt-0 text-left ">
+          <div className="w-full md:w-1/2 flex items-start text-center md:text-start flex-col justify-center mt-3 md:mt-0">
+            <h1 className="font-poppins w-full text-4xl md:mt-0 mt-3 md:text-8xl  text-left ">
               Zulfikar 
             </h1>
-            <h1 className="font-poppins w-full text-2xl md:text-8xl mb-10 mt-10 md:mt-0 text-left ">
+            <h1 className="font-poppins w-full text-4xl md:mt-0 mt-3 md:text-8xl text-left ">
                Aji  
             </h1>
-            <h1 className="font-poppins w-full text-2xl md:text-8xl mb-10 mt-10 md:mt-0 text-left ">
+            <h1 className="font-poppins w-full text-4xl md:mt-0 mt-3 md:text-8xl text-left ">
               Santoso 
             </h1>
-            <div className="w-full  mb-10 text-left">
+            <div className="w-full  mb-6 text-left mt-6">
             <Typed
               className="font-poppins text-1xl  md:text-3xl font-thin "
               strings={[
@@ -41,7 +41,7 @@ function Home({openchat}) {
             />
             </div>
             <p className="w-full md:w-3/4 text-left ">
-              Saya adalah seorang software engineer dengan pengalaman 2 tahun lebih membuat sistem berbasis website dan mobile 
+              Saya adalah seorang software engineer dengan pengalaman 2 tahun lebih dan telah membuat berbagai jenis sistem ataupun website seperti kasir, travel, e-commerce dan masih banyak lagi
             </p>
             <div className="flex items-center w-full justify-center md:justify-start">
               <a href="mailto:zulfikarajisan@gmail.com" 

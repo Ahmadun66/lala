@@ -53,7 +53,7 @@ function About() {
       lokasi: "PT. Horus Technology, Yogyakarta",
       tugas:
         "Bertugas membuat sistem ERP yang efisien, aman dan optimal. Membuat basis data, struktur tabel dan rest API untuk aplikasi web dan mobile. Mengelola dan membuat tampilan aplikasi website yang diintegrasikan dengan Back End. User training ERP System",
-      stack: "Vue js (Javascript), Flask (Python), Postgresql, Pinia State",
+      stack: "Vue js (Javascript), Flask (Python), Postgresql, Pinia State, Jira, Trello",
     },
     {
       contentStyle: { background: "#FFFFFF", color: "#000" },

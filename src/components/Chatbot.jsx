@@ -236,7 +236,7 @@ function Chatbot(chatactivate) {
                   {d.read ? "" : d.message}
                   {d.read === "ig" && (
                     <Link
-                      to={"https://www.instagram.com/laperrman/"}
+                      to={"https://www.instagram.com/ajiantiair/"}
                       className="flex items-center"
                     >
                       <FaSquareInstagram />{" "}

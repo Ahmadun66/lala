@@ -30,7 +30,7 @@ const Item = ({ data, index }) => {
   return (
     <div
       key={index}
-      className="relative w-full h-72 rounded-md shadow-lg bg-slate-800"
+      className="relative w-full h-full rounded-md shadow-lg bg-slate-800"
       data-aos="fade-left"
       data-aos-delay={index * 200}
       data-aos-once={true}
@@ -75,12 +75,11 @@ const PaginatedItems = ({ itemsPerPage, items }) => {
     const endOffset = itemOffset + itemsPerPage;
     setCurrentItems(items.slice(itemOffset, endOffset));
     setPageCount(Math.ceil(items.length / itemsPerPage));
-   
-    if(items.length <= 4){
-      setItemOffset(0)
+
+    if (items.length <= 4) {
+      setItemOffset(0);
     }
   }, [itemOffset, items, itemsPerPage]);
-
 
   const handlePageClick = (event) => {
     const newOffset = (event.selected * itemsPerPage) % items.length;
@@ -98,12 +97,12 @@ const PaginatedItems = ({ itemsPerPage, items }) => {
 
       <div className=" justify-center mt-6 items-center">
         <ReactPaginate
-          nextLabel="next >"
+          nextLabel=">"
           onPageChange={handlePageClick}
           pageRangeDisplayed={3}
           marginPagesDisplayed={2}
           pageCount={pageCount}
-          previousLabel="< previous"
+          previousLabel="<"
           pageClassName="page-item"
           pageLinkClassName="page-link"
           previousClassName="page-item"
@@ -176,15 +175,18 @@ const Work = () => {
     }
   }, [usethis, req]);
 
-
   return (
     <>
       <div className="w-full h-screen scrollhide">
-        <div
-          ref={myref}
-          className="w-full h-2/3 flex justify-center items-center"
-        >
-          <h2 className=" font-poppins text-4xl md:text-7xl ">Work Section</h2>
+        <div className="h-screen">
+          <div
+            ref={myref}
+            className="w-full h-2/3 flex justify-center items-center"
+          >
+            <h2 className=" font-poppins text-4xl md:text-7xl ">
+              Work Section
+            </h2>
+          </div>
         </div>
         <div className="w-full flex h-full justify-center items-center">
           <div
